@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+
+:root {
+    --sketch-pad-width: 600px;
+    --sketch-pad-padding: 1px;
+}
+
+.sketch-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: var(--sketch-pad-width);
+}
